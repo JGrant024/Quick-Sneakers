@@ -1,0 +1,31 @@
+li {
+  display: inline;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.day-1-logo {
+  width: 55px;
+  height: 25px;
+}
+
+.day-1-shoe1 {
+  width: 489px;
+  height: 265px;
+  padding-left: 160px;
+}
+.container {
+  background-color: rgb(216, 30, 61);
+}
+
+h4 {
+  display: inline-block;
+}
+
+.quick {
+  display: flex;
+  flex-direction: right;
+}

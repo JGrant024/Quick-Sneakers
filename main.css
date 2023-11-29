@@ -5,6 +5,8 @@ li {
 
 a {
   text-decoration: none;
+  justify-content: space-around;
+  color: rgb(183, 77, 19);
 }
 
 .day-1-logo {
@@ -17,15 +19,44 @@ a {
   height: 265px;
   padding-left: 160px;
 }
+
+.nav-bar {
+  background-color: white;
+  border-bottom: black 2PXpx solid;
+  padding: 10px;
+  height: 60px;
+}
 .container {
-  background-color: rgb(216, 30, 61);
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 20, 127),
+    rgba(225, 102, 7, 0.818)
+  );
 }
 
-h4 {
+aside {
+  width: 40px;
+  padding-left: 20px;
+  float: right;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-right: 80px;
+  padding-right: 220px;
+}
+
+.size {
+  display: flex;
   display: inline-block;
 }
 
 .quick {
-  display: flex;
-  flex-direction: right;
+  color: white;
+}
+
+.footer {
+  background-image: linear-gradient(
+    to right,
+    rgb(177, 4, 111),
+    rgb(183, 77, 19)
+  );
 }

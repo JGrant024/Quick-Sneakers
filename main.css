@@ -26,13 +26,26 @@ a {
   padding: 10px;
   height: 60px;
 }
+
+.topnav-right {
+  float: right;
+}
+
+.arrow {
+  padding-left: 160px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+}
 .container {
+  padding-bottom: 180px;
   background-image: linear-gradient(
     to right,
     rgb(193, 20, 127),
     rgb(225, 83, 7)
   );
   padding-top: 40px;
+  text-overflow: wrap;
 }
 
 aside {
@@ -50,7 +63,7 @@ aside {
   display: inline-block;
 }
 
-.quick {
+.lorem {
   color: white;
 }
 

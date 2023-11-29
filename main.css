@@ -30,8 +30,9 @@ a {
   background-image: linear-gradient(
     to right,
     rgb(193, 20, 127),
-    rgba(225, 102, 7, 0.818)
+    rgb(225, 83, 7)
   );
+  padding-top: 40px;
 }
 
 aside {

@@ -38,6 +38,7 @@ a {
   color: white;
 }
 .container {
+  display: flex;
   padding-bottom: 180px;
   background-image: linear-gradient(
     to right,
@@ -60,7 +61,7 @@ aside {
 
 .size {
   display: flex;
-  display: inline-block;
+  display: inline;
 }
 
 .lorem {

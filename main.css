@@ -39,7 +39,7 @@ a {
 }
 .container {
   display: flex;
-  padding-bottom: 180px;
+  padding-bottom: 80px;
   background-image: linear-gradient(
     to right,
     rgb(193, 20, 127),
@@ -74,4 +74,10 @@ aside {
     rgb(177, 4, 111),
     rgb(183, 77, 19)
   );
+}
+
+.bottomNav-right {
+  float: right;
+  display: flex;
+  justify-content: space-around;
 }

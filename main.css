@@ -130,18 +130,14 @@ button {
   display: flex;
 }
 
-.day-1-shoe2 {
-  width: 260px;
-  height: 120px;
-}
-
-.day-1-shoe3 {
-  width: 260px;
-  height: 120px;
-}
+.day-1-shoe2,
+.day-1-shoe3,
 .day-1-shoe4 {
-  width: 260px;
-  height: 120px;
+  display: flex;
+  max-width: 40%;
+  max-height: 40%;
+  padding-top: 50px;
+  justify-content: space-between;
 }
 
 .footer {

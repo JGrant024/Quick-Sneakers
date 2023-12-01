@@ -136,16 +136,27 @@ button {
 
 .shoes {
   display: flex;
+  max-width: 60%;
+  max-height: 60%;
+  padding-top: 50px;
 }
 
-.day-1-shoe2,
+/* .day-1-shoe2,
 .day-1-shoe3,
 .day-1-shoe4 {
   display: flex;
   max-width: 40%;
   max-height: 40%;
   padding-top: 50px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+} */
+
+.reccomended {
+  background-color: pink;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  max-width: 99.3%;
 }
 
 .footer {
@@ -154,4 +165,12 @@ button {
     rgb(177, 4, 111),
     rgb(183, 77, 19)
   );
+}
+
+@media screen and (width <=913px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

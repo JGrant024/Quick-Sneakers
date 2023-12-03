@@ -40,6 +40,7 @@ a {
 h5 {
   color: white;
   font-size: 32px;
+  height: 25px;
 }
 
 .arrow {
@@ -143,23 +144,34 @@ h2 {
   line-height: 1.6;
   font-family: Arial, Helvetica, sans-serif;
   padding-bottom: 10px;
-  padding-top: -10px;
+  width: 392px;
 }
 
 .reviews {
   color: black;
   float: right;
+  text-decoration: underline;
 }
 
 .money {
   float: left;
   color: white;
+  font-size: 25px;
+}
+
+.cents {
+  font-size: 15px;
+  margin-left: 3px;
+  position: relative;
+  top: -7px;
 }
 
 button {
   width: 118px;
-  height: 42px;
+  height: 46px;
   border-radius: 12px;
+  margin-left: 15px;
+  font-size: 16px;
 }
 
 .topic {

@@ -22,7 +22,6 @@ a {
 
 .nav-bar {
   background-color: white;
-  border-bottom: black 2PXpx solid;
   padding: 10px;
   height: 60px;
 }
@@ -35,6 +34,7 @@ a {
   float: right;
   display: flex;
   justify-content: space-around;
+  color: black;
 }
 
 .arrow {
@@ -50,20 +50,47 @@ a {
     rgb(193, 20, 127),
     rgb(225, 83, 7)
   );
-  padding-top: 40px;
-  text-overflow: wrap;
   height: 414px;
   width: 1258px;
+  justify-content: space-around;
 }
 
-.container2 {
+.image-container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    rgb(193, 20, 127),
+    rgb(225, 83, 7)
+  );
 }
 
-.container3 {
+.shoe2 {
   display: flex;
-  flex-direction: column;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+  margin-left: 90px;
+  padding-bottom: 40px;
+}
+
+.shoe3 {
+  display: flex;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+}
+
+.shoe4 {
+  display: flex;
+  width: 290px;
+  height: 230px;
+  padding-top: 50px;
+  margin-right: 90px;
+}
+
+p {
+  color: white  ;
 }
 
 aside {
@@ -122,41 +149,37 @@ button {
   color: to right, rgb(177, 4, 111), rgb(183, 77, 19);
 }
 
-.lastContainer {
+/* .lastContainer {
   display: flex;
   background-image: linear-gradient(
     to right,
     rgb(193, 20, 127),
     rgb(225, 83, 7)
   );
-  text-overflow: wrap;
   height: 352px;
-  width: 1255px;
-}
+  width: 1264px;
+} */
 
 .shoes {
   display: flex;
-  max-width: 60%;
+  max-width: 50%;
   max-height: 60%;
   padding-top: 50px;
 }
 
-/* .day-1-shoe2,
-.day-1-shoe3,
-.day-1-shoe4 {
+h4 {
   display: flex;
-  max-width: 40%;
-  max-height: 40%;
-  padding-top: 50px;
-  justify-content: space-evenly;
-} */
+  flex-direction: column;
+  color: white;
+}
 
 .reccomended {
-  background-color: pink;
+  background-color: #f5c6ce;
   font-weight: bold;
   text-align: center;
   font-size: 25px;
-  max-width: 99.3%;
+  max-width: 98.3%;
+  padding: 25px;
 }
 
 .footer {

@@ -1,11 +1,13 @@
-li {
-  display: inline;
+ul {
+  display: flex;
+  justify-content: space-between;
   text-decoration: none;
+  list-style-type: none;
 }
 
 a {
   text-decoration: none;
-  justify-content: space-around;
+  justify-content: center;
   color: rgb(183, 77, 19);
 }
 
@@ -18,6 +20,11 @@ a {
   width: 489px;
   height: 265px;
   padding-left: 160px;
+}
+
+.nav-container {
+  border-bottom: 2px solid black;
+  width: 1258px;
 }
 
 .nav-bar {
@@ -57,7 +64,6 @@ h5 {
     rgb(225, 83, 7)
   );
   height: 414px;
-  width: 1258px;
   justify-content: space-around;
 }
 
@@ -103,14 +109,14 @@ p {
   display: inline;
 }
 
-.sheree1 {
-  font: italic 1.2rem "Fira Sans", serif;
-  color: black;
-}
-
 .sheree {
   font: italic 1.2rem "Fira Sans", serif;
   text-align: center;
+}
+
+.sheree2 {
+  font: italic 1.2rem "Fira Sans", serif;
+  text-align: left;
 }
 
 .dotted-line {
@@ -136,7 +142,7 @@ aside {
 
 h2 {
   color: white;
-  text-align: center;
+  text-align: left;
 }
 
 .lorem {
@@ -148,9 +154,11 @@ h2 {
 }
 
 .reviews {
-  color: black;
+  color: rgb(41, 36, 36);
   float: right;
   text-decoration: underline;
+  font-size: 16px;
+  font-family: serif;
 }
 
 .money {
@@ -166,9 +174,16 @@ h2 {
   top: -7px;
 }
 
+.cents2 {
+  font-size: 15px;
+  margin-left: 3px;
+  position: relative;
+  top: -6px;
+}
+
 button {
-  width: 118px;
-  height: 46px;
+  width: 100px;
+  height: 44px;
   border-radius: 12px;
   margin-left: 15px;
   font-size: 16px;
